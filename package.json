@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "natural": "^0.1.26"
+    "natural": "^0.1.26",
+    "string": "^1.8.0"
   }
 }
