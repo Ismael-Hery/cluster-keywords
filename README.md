@@ -1,5 +1,9 @@
-# Idées
+# TODO
 
-* Utiliser rake en enlevant les stop words de/du/des/de l' (off en anglais)
-* Utiliser un fréquence par ngram
-=> comparer les 2 (à la manière ensembliste en machine learning)
+* Augmenter le nbre d'article
+* Tester avec des ngrams plus grand ou plus petit
+* Construire une liste de mot clé pour des évènements :
+
+évènements, affaire, invasion, guerre, attentat, victoire, éléctions
+=> cf liste des évènements issus de dbpedia
+
