@@ -1,39 +1,8 @@
 # TODO
 
-* Augmenter le nbre d'article
+* Faire un vrai calcul de fréquence : nombre d'article dans lequel ça apparait plutôt que nbre d'occurence / nbre d'article
 * Tester avec des ngrams plus grand ou plus petit
 * Construire une liste de mot clé pour des évènements :
-
 => cf liste des évènements issus de dbpedia
-attentat
-accord
-accords
-affaire
-appel
-bataille
-catastrophe
-conférence
-congrès
-crise
-déclaration
-découverte
-discours
-élections
-évènements
-famine
-guerre
-incident
-insurrection
-invasion
-libération
-loi
-massacre
-référendum
-procès
-résolution
-révolution
-révolte
-traité
-tuerie
-victoire
-
+* Idées de Thomas pour séléctionner les bons mots clé : prendre ceux qui sont le plus représentatif du cluster PAR RAPPORT
+aux autres clusters en faisant du TFIDF sur les bloc de mots clés (de 2, 3, 4, 5)
