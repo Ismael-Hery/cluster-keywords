@@ -1,9 +1,10 @@
 var keywords = require('../lib/keywords');
 var fs = require('fs');
 
-var article1 = fs.readFileSync('text1.txt').toString();
-var article2 = fs.readFileSync('text2.txt').toString();
-var article3 = fs.readFileSync('text3.txt').toString();
+// ukraine : 3485204
+// tapie : 1821569 
+//keywords.ensembleKeywords(1821569);
 
-//console.log(keywords.clusterKeywords([article1, article2, article3]));
-keywords.ensembleKeywords(3485204);
+var articles = require('./cluster1.json').articles;
+
+keywords.clusterKeywords(articles);
