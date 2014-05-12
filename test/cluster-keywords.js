@@ -8,3 +8,11 @@ var fs = require('fs');
 var articles = require('./cluster1.json').articles;
 
 keywords.clusterKeywords(articles);
+
+/**
+ * Results
+ * 2774725 : 'intervention', 'soviétique', 'en', 'afghanistan'
+ * 1861611 : 'guerre', 'en', 'extrême', 'orient'
+ * 2119209 : 'accords', 'de', 'zurich' puis en second : 'affaire', 'de', 'chypre'
+ * 3144841 : 'réforme', 'du', 'second', 'cycle'
+ */
