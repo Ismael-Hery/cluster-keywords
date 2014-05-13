@@ -1,5 +1,6 @@
 var keywords = require('../lib/keywords');
 var fs = require('fs');
+var lmApi = require('../lib/lmApi');
 
 // ukraine : 3485204
 // tapie : 1821569 
@@ -8,6 +9,8 @@ var fs = require('fs');
 var articles = require('./cluster1.json').articles;
 
 keywords.printClusterKeywords(articles);
+
+//lmApi.getClusterArticles(2774725);
 
 /**
  * Results
