@@ -7,7 +7,7 @@ var fs = require('fs');
 
 var articles = require('./cluster1.json').articles;
 
-keywords.clusterKeywords(articles);
+keywords.printClusterKeywords(articles);
 
 /**
  * Results
