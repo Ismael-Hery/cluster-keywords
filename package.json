@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "async": "^0.8.0",
-    "natural": "^0.1.26",
+    "natural": "git://github.com/NaturalNode/natural.git",
     "string": "^1.8.0",
     "superagent": "^0.18.0",
     "underscore": "^1.6.0"
